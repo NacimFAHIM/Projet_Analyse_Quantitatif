@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # Pour éxecuter le programme veuillez mettre le bon chemin de fichier
-data = pd.read_csv('C:/Users/fahim/Downloads/BP_data.csv', sep=';')
+data = pd.read_csv('', sep=';')
 
 # Calcul du prix moyen et des rendements log
 data['Prix_moy'] = (data['High'] + data['Low']) / 2
